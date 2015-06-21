@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mConversionImportTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mGiven numbers in string form under the proper import[0m[0m
+[0m[[0minfo[0m] [0m[32m  you can add them together with implicit conversions[0m[0m
+[0m[[0minfo[0m] [0m[32m  - and get what you'd expect[0m[0m

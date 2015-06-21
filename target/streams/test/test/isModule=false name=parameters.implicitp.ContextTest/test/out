@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mContextTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Collaborator, with implicit and explicit Contexts[0m[0m
+[0m[[0minfo[0m] [0m[32m  when asked for the answer to an addition problem, specifying the explicit context[0m[0m
+[0m[[0minfo[0m] [0m[32m  - returns the answer modified by the explicit context[0m[0m
+[0m[[0minfo[0m] [0m[32m  when asked for the answer to an addition problem, without specifying a context[0m[0m
+[0m[[0minfo[0m] [0m[32m  - returns the answer modified by the implicit context[0m[0m
+[0m[[0minfo[0m] [0m[32m  when asked for the answer to an addition problem, specifying the implicit context[0m[0m
+[0m[[0minfo[0m] [0m[32m  - returns the answer modified by the implicit context[0m[0m

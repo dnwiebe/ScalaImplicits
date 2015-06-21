@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m[32mContextTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mA Collaborator, with an available Context[0m[0m
+[0m[[0minfo[0m] [0m[32m  when asked for the answer to an addition problem, modified by the context[0m[0m
+[0m[[0minfo[0m] [0m[32m  - returns the answer modified by the context[0m[0m
