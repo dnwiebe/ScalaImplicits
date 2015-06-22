@@ -1,4 +1,0 @@
-[0m[[0minfo[0m] [0m[32mContextImportTest:[0m[0m
-[0m[[0minfo[0m] [0m[32mA Collaborator, with a Context available through import[0m[0m
-[0m[[0minfo[0m] [0m[32m  when asked for the answer to an addition problem[0m[0m
-[0m[[0minfo[0m] [0m[32m  - returns the answer modified by the imported context[0m[0m
