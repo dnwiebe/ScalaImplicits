@@ -22,5 +22,13 @@ class ConversionTest extends path.FunSpec {
          assert (result === "36")
        }
      }
+
+     describe ("if you allow type inference on the result") {
+       val result = add (a, b)
+
+       it ("the compiler will take the easy way out") {
+         assert (result === 36)
+       }
+     }
    }
  }

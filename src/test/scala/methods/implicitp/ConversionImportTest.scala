@@ -1,7 +1,7 @@
 package methods.implicitp
 
 import org.scalatest.path
-import methods.implicitp.ForImporting.convert
+import methods.implicitp.ForImporting._
 
 /**
   * Created by dnwiebe on 3/8/15.
