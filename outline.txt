@@ -1,3 +1,14 @@
+Implicit Classes
+
+Implicit Methods
+
+In methods.explicitp:
+  Show ConversionTest, convert() methods
+
+In methods.implicitp:
+  Show ConversionTest, show implicits and implications
+  Show ConversionImportTest and ForImporting
+
 Implicit Parameters
 
 In parameters.explicitp:
@@ -14,15 +25,4 @@ In parameters.implicitp:
   Show MultipleParameterListsTest: one implicit label per list
   Show: can't do multiple implicit lists
   Show: can do multiple non-implicit lists
-
-Implicit Methods
-
-In methods.explicitp:
-  Show ConversionTest, convert() methods
-
-In methods.implicitp:
-  Show ConversionTest, show implicits and implications
-  Show ConversionImportTest and ForImporting
-
-Implicit Classes
 
