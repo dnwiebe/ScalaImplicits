@@ -14,7 +14,7 @@ class TaxationImportTest extends path.FunSpec {
       val result = subject.earn (40, 50)
 
       it ("confiscates half") {
-        assert (result === 45)
+        assert (result === 40 + 50 - 25)
       }
     }
   }

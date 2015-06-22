@@ -15,7 +15,7 @@ class TaxationTest extends path.FunSpec {
       val result = subject.earn (40, 50)(explicitTaxation)
 
       it ("contributes 10%") {
-        assert (result === 99)
+        assert (result === 40 + 50 + 5)
       }
     }
 
@@ -23,7 +23,7 @@ class TaxationTest extends path.FunSpec {
       val result = subject.earn (40, 50)
 
       it ("confiscates 10%") {
-        assert (result === 81)
+        assert (result === 40 + 50 - 5)
       }
     }
 
@@ -31,7 +31,7 @@ class TaxationTest extends path.FunSpec {
       val result = subject.earn (40, 50)(implicitTaxation)
 
       it ("confiscates 10%") {
-        assert (result === 81)
+        assert (result === 40 + 50 - 5)
       }
     }
   }

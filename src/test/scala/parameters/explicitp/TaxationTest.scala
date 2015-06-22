@@ -14,7 +14,7 @@ class TaxationTest extends path.FunSpec {
       val result = subject.earn (40, 50, taxation)
 
       it ("confiscates 10%") {
-        assert (result === 81)
+        assert (result === 40 + 50 - 5)
       }
     }
   }

@@ -5,6 +5,6 @@ package parameters.implicitp
   */
 class Commerce {
   def earn (previousBalance: Int, wage: Int)(implicit taxation: Taxation): Int = {
-    taxation.tax (previousBalance + wage)
+    previousBalance + taxation.tax (wage)
   }
 }
