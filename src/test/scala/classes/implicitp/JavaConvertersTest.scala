@@ -1,6 +1,6 @@
 package classes.implicitp
 
-import java.util
+import java.util.Arrays
 
 import org.scalatest.path
 import scala.collection.JavaConverters._
@@ -10,7 +10,7 @@ import scala.collection.JavaConverters._
  */
 class JavaConvertersTest extends path.FunSpec {
   describe ("A scrawny, wimpy little Java list") {
-    val javaList = util.Arrays.asList (3, 2, 1)
+    val javaList = Arrays.asList (3, 2, 1)
 
     it ("cannot be mapped") {
       // javaList.map {_ * 2}

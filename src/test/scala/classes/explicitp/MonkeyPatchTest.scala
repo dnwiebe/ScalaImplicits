@@ -1,6 +1,6 @@
 package classes.explicitp
 
-import classes.ForImporting
+import classes.ForImporting.CapitalizableString
 import org.scalatest.path
 
 /**
@@ -8,7 +8,7 @@ import org.scalatest.path
  */
 class MonkeyPatchTest extends path.FunSpec {
   describe ("A CapitalizableString") {
-    val text = new ForImporting.CapitalizableString ("now and then,  an innocent man is  sent to the Legislature.")
+    val text = new CapitalizableString ("now and then,  an innocent man is  sent to the Legislature.")
 
     describe ("capitalized") {
       val capitalized = text.asTitle

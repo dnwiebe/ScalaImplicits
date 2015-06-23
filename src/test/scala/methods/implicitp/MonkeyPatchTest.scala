@@ -1,7 +1,7 @@
 package methods.implicitp
 
 import org.scalatest.path
-import methods.implicitp.ForMonkeyPatch.convert
+import methods.implicitp.ForMonkeyPatch._
 
 class MonkeyPatchTest extends path.FunSpec {
 
